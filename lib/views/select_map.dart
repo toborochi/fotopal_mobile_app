@@ -12,7 +12,7 @@ class SelectMap extends StatelessWidget {
   PickResult selectedPlace = new PickResult();
   @override
   Widget build(BuildContext context) {
-    final kInitialPosition = LatLng(-17.7882056, -63.16566528);
+    final kInitialPosition = LatLng(45.703536, 21.302092);
     return Container(
       child: PlacePicker(
         apiKey: "<GOOGLE API KEY>",
